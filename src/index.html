@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SweetAlert2 Example</title>
+  <!-- SweetAlert2 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<h2>Delete Confirmation Example</h2>
+   <button onclick="deleteData()">Delete</button>
+
+  <script>
+    function deleteData() {
+      Swal.fire({
+        title: "Are you sure?",
+        text: "Ye data permanently delete ho jayega!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Yes, delete",
+        cancelButtonText: "No, cancel"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire("Deleted!", "Data successfully delete ho gaya 😄", "success");
+        } else {
+          Swal.fire("Cancelled", "Delete cancel kar diya 🙂", "info");
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

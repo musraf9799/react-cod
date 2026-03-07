@@ -33,9 +33,15 @@
 // import Folder from "./folder";
 // import Useref from "./useref";
 
+import Colcuter from "./colcuter";
+
+// import Pluse from "./pluse";
+
+// import First from "./first";
+
 // import Mukesh from "./mukesh";
 
-import Kaper from "./kaper";
+// import Kaper from "./kaper";
 
 // import Bharat from "./bharat";
 
@@ -87,8 +93,11 @@ function App(){
   {/* <Bharat /> */}
    {/* <Element />  */}
   {/* <Note /> */}
-  <Kaper />
+  {/* <Kaper /> */}
   {/* <Mukesh /> */}
+  {/* <First /> */}
+  {/* <Pluse /> */}
+  <Colcuter />
   </>
 }
  export default App;
