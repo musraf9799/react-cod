@@ -33,7 +33,9 @@
 // import Folder from "./folder";
 // import Useref from "./useref";
 
-import Colcuter from "./colcuter";
+import Weather from "./weather app.jsx";
+
+// import Colcuter from "./colcuter";
 
 // import Pluse from "./pluse";
 
@@ -97,7 +99,8 @@ function App(){
   {/* <Mukesh /> */}
   {/* <First /> */}
   {/* <Pluse /> */}
-  <Colcuter />
+  {/* <Colcuter /> */}
+  <Weather />
   </>
 }
  export default App;
